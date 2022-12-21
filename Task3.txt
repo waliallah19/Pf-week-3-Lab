@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+main()
+{
+int lb;
+float p=0.45;
+result r;
+cout <<"Enter weight in pounds";
+cin>>lb;
+r=lb*p;
+cout<<lb <<" pounds weight is " <<r <<" Kgs"; 
+}
